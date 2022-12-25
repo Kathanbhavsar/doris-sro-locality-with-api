@@ -124,7 +124,7 @@ def get_doris_data(start_locality=None, no_of_locality=None):
             if table_flag:
                 
                 page_flag = True
-                print("Going into while")
+                print("Table found looking for the next pages to paginate!")
                 
                 while page_flag:
                     page_flag = check_exists(driver,'//*[(@id = "ctl00_ContentPlaceHolder1_gv_search_ctl13_Button2")]','xpath')
@@ -134,7 +134,7 @@ def get_doris_data(start_locality=None, no_of_locality=None):
                     df_list.append(df)
                     time.sleep(3)
                     if page_flag:
-                        print("Going into if")
+                        print("Page Found Going to the next page!")
                         page_button = driver.find_element_by_xpath('//*[(@id = "ctl00_ContentPlaceHolder1_gv_search_ctl13_Button2")]')
                         driver.execute_script("arguments[0].click();",page_button)
                         time.sleep(3)
