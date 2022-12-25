@@ -1,0 +1,9 @@
+Flask==2.2.2
+opencv_python==4.6.0.66
+pandas==1.5.2
+Pillow==9.3.0
+psycopg2==2.9.5
+pytesseract==0.3.10
+selenium==3.141.0
+SQLAlchemy==1.4.45
+urllib3==1.26.13
