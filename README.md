@@ -30,28 +30,28 @@ Install dependencies
 Setting up the postgres docker container,
 Pull the docker image
 ```bash
-docker pull postgres
+  docker pull postgres
 ```
 Run the docker command as follows in terminal to setup the postgres 
 ```bash
-docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+  docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 ```
 
 Then start the docker container
 ```bash
-docker start postgresqldb
+  docker start postgresqldb
 ```
 Access the shell of the postgres
 ```bash
-docker exec -it [container ID] bash
+  docker exec -it [container ID] bash
 ```
 Enter the psql command line
 ```bash
-psql -h [localhost] -U [postgres]
+  psql -h [localhost] -U [postgres]
 ```
 Then create a database by giving the appropriate database name
 ```bash
-create database [database_name];
+  create database [database_name];
 ```
 ## Deployment
 
