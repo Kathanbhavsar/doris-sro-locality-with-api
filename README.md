@@ -99,9 +99,9 @@ GET http://127.0.0.1:5000/doris/execute
 
 ## Screenshots
 API call with the reg_no
-![GET method reg_id Screenshot]([https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/reg_no_call.png?token=GHSAT0AAAAAAB2PBURIZ2ERE6XW4WUOIEIYY5JFJVQ])
+![GET method reg_id Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/reg_no_call.png?token=GHSAT0AAAAAAB2PBURIZ2ERE6XW4WUOIEIYY5JFJVQ)
 Custom-Query 
-![GET method custom query Screenshot]([(https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/custom-query.png?token=GHSAT0AAAAAAB2PBURJDJKLQDSGH5V4MMLCY5JFJFA])
+![GET method custom query Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/custom-query.png?token=GHSAT0AAAAAAB2PBURJDJKLQDSGH5V4MMLCY5JFJFA)
 
 ## 🔗 Links
 [![Linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kathan-bhavsar-852b72192/)
