@@ -12,20 +12,20 @@ This project includes data scraped from a delhi government website of different 
 Clone the project
 
 ```bash
-  git clone git@github.com:Kathanbhavsar/propreturns-task-with-api.git
+git clone git@github.com:Kathanbhavsar/propreturns-task-with-api.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd propreturns-task-with-api
+cd doris-sro-locality-with-api
 ```
 
 Install dependencies
 
 
 ```bash
-  pip install -r requiremets.txt
+pip install -r requiremets.txt
 ```
 Setting up the postgres docker container,
 Pull the docker image
@@ -57,7 +57,7 @@ create database [database_name];
 
 Navigate to the postgres_write file and edit the conn_string with your database and password
 ```bash
- conn_string = 'postgresql://[user]:[password]@:[host]/[dbname]'
+conn_string = 'postgresql://[user]:[password]@:[host]/[dbname]'
 ```
 You can also change the database table name as the file scraped will be stored in the table under that name in the postgres_write file
 ```bash
@@ -65,7 +65,7 @@ df.to_sql('[table name]', con=conn, if_exists='replace', index=False)
 ```
 After installing all the dependencies run the main.py file. 
 ```bash
-  python main.py
+python main.py
 ```
 After running the data scraped will be stored in the csv and if you have configured the database porperly it will save the scraped data into the postgresql
 
@@ -83,7 +83,7 @@ The flask app will allow you to query the data that is stored in the postgres se
 #### Get item
 
 ```http
-  GET http://127.0.0.1:5000/doris?id={id}
+GET http://127.0.0.1:5000/doris?id={id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -97,11 +97,12 @@ GET http://127.0.0.1:5000/doris/execute
 ```
 
 
+
 ## Screenshots
 API call with the reg_no
-![GET method reg_id Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/propreturns-task-with-api/main/reg_no_call.png)
+![GET method reg_id Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/reg_no_call.png)
 Custom-Query 
-![GET method custom query Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/propreturns-task-with-api/main/custom-query.png)
+![GET method custom query Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/custom-query.png?token=GHSAT0AAAAAAB2PBURIEAAZJEOFAT3I7QNCY5JFKZQ)
 
 
 ## 🔗 Links
