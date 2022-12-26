@@ -18,7 +18,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd propreturns-task-with-api
+  cd doris-sro-locality-with-api
 ```
 
 Install dependencies
