@@ -100,9 +100,9 @@ GET http://127.0.0.1:5000/doris/execute
 
 ## Screenshots
 API call with the reg_no
-![GET method reg_id Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/reg_no_call.png)
+![GET method reg_id Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/Screenshot%202022-12-26%20at%203.03.06%20PM.png)
 Custom-Query 
-![GET method custom query Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/custom-query.png?token=GHSAT0AAAAAAB2PBURIEAAZJEOFAT3I7QNCY5JFKZQ)
+![GET method custom query Screenshot](https://raw.githubusercontent.com/Kathanbhavsar/doris-sro-locality-with-api/main/custom-query.png)
 
 
 ## 🔗 Links
