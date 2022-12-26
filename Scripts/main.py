@@ -6,7 +6,7 @@ def main():
     """
     Function main that retrieves data from the website, cleans it up, and writes it to a PostgreSQL database.
 
-    Calls the get_doris_data function to scrape data from the website for the localities from the third to fifth locality (inclusive). The resulting DataFrame is stored in doris_df.
+    Calls the get_doris_data function to scrape data from the website for the localities.
     Calls the data_cleanup function to clean up the data in doris_df and stores the resulting DataFrame in doris_df.
     Calls the postgres_write function to write doris_df to the PostgreSQL database.
 
