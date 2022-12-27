@@ -12,7 +12,7 @@ This project includes data scraped from a delhi government website of different 
 Clone the project
 
 ```bash
-git clone git@github.com:Kathanbhavsar/propreturns-task-with-api.git
+git clone git@github.com:Kathanbhavsar/doris-sro-locality-with-api.git
 ```
 
 Go to the project directory
